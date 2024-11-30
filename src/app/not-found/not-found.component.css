@@ -1,0 +1,22 @@
+.not{
+    background: linear-gradient(to left, rgba(214, 2, 2, 0.5), rgba(93, 93, 209, 0.5));
+}
+.not-header-section {
+    padding: 50px 20px;
+    background: linear-gradient(to left, rgba(214, 2, 2, 0.5), rgba(93, 93, 209, 0.5));
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.not-header-section h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+.not-header-description {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 30px;
+}

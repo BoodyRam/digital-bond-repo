@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/"><img class="logo" src="logo_black.webp" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/home" routerLinkActive="active"
+                        [routerLinkActiveOptions]="{exact: true}">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/about" routerLinkActive="active"
+                        [routerLinkActiveOptions]="{exact: true}">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/services" routerLinkActive="active"
+                        [routerLinkActiveOptions]="{exact: true}">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/career" routerLinkActive="active"
+                        [routerLinkActiveOptions]="{exact: true}">CAREERS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/contact" routerLinkActive="active"
+                        [routerLinkActiveOptions]="{exact: true}">SAY HELLO</a>
+                </li>
+            </ul>
+            <div class="d-flex me-4">
+                <ul class="navbar-nav">
+                    <li class="nav-item icons me-3"><i class="fa-brands fa-instagram fa-beat fa-lg"></i></li>
+                    <li class="nav-item icons me-3"><i class="fa-brands fa-facebook fa-beat fa-lg"></i></li>
+                    <li class="nav-item icons me-3"><i class="fa-brands fa-linkedin fa-beat fa-lg"></i></li>
+                    <li class="nav-item icons me-3"><i class="fa-brands fa-whatsapp fa-beat fa-lg"></i></li>
+                    <li class="nav-item icons me-3"><i class="fa-brands fa-tiktok fa-beat fa-lg"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

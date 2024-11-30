@@ -1,0 +1,81 @@
+/* ------------Header------------ */
+.contact{
+    background: linear-gradient(to left, rgba(214, 2, 2, 0.5), rgba(93, 93, 209, 0.5));
+}
+.contact-section {
+    padding: 50px 20px;
+    background: linear-gradient(to left, rgba(214, 2, 2, 0.5), rgba(93, 93, 209, 0.5));
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* --------------Contact--------------- */
+
+.contact-description {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.submit-button:hover {
+    background: #0056b3;
+}
