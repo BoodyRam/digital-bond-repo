@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-/* --------------About----------------- */
-
-
 /* -----------Stats----------- */
 .stats {
     margin: 0;
@@ -15,7 +12,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .stats-container {
@@ -178,7 +174,7 @@
 
 /* ---------Mobile------------ */
 
-@media (max-width: 972px) {
+@media (max-width: 768px) {
     .item-list {
         flex-direction: column;
         gap: 10px;
@@ -205,17 +201,5 @@
     .caption1 .headingImg {
         width: 100px;
         height: 100px;
-    }
-}
-
-@media (max-width: 338px) {
-    .caption1 .btn1 {
-        width: 50px;
-        height: 50px;
-        font-size: 5px;
-    }
-
-    .caption1 .heading {
-        font-size: 15px;
     }
 }
